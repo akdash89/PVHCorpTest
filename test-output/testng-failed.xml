@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ClassOne(failed)">
+    <classes>
+      <class name="com.AutomationAsginmnt.Apps.AutomationPracticeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="launchApp"/>
+          <include name="teardown"/>
+          <include name="testAutomationPracticeTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.AutomationAsginmnt.Apps.AutomationPracticeTest -->
+    </classes>
+  </test> <!-- ClassOne(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.AutomationAsginmnt.Apps.TOMMYHILFIGERTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 127.909 s <<< FAILURE! - in com.AutomationAsginmnt.Apps.TOMMYHILFIGERTest
+testAutomationPracticeTest(com.AutomationAsginmnt.Apps.TOMMYHILFIGERTest)  Time elapsed: 116.103 s  <<< FAILURE!
+java.lang.Exception: 
+Error occured in AddNewAddressFlow
+ Exception in Click Method While performing click on  =>Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(@id,'firstName')]'is not displayed 
+java.lang.Exception: 
+ Exception in waitForElementToBeDisplayed Method While Finding error while locating element => 
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USDH3P5MYY2', ip: '192.168.2.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\adash2\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56b3c44cadf3bed75a75bc63bca761dd
+*** Element info: {Using=xpath, value=//*[contains(@id,'firstName')]}
+	at com.AutomationAsginmnt.Apps.TOMMYHILFIGERTest.testAutomationPracticeTest(TOMMYHILFIGERTest.java:38)
+

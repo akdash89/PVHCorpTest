@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-07T15:54:02 IST" name="Parallel Test Suite" finished-at="2021-08-07T15:54:41 IST" duration-ms="39072">
+    <groups>
+    </groups>
+    <test started-at="2021-08-07T15:54:02 IST" name="ClassOne" finished-at="2021-08-07T15:54:41 IST" duration-ms="39072">
+      <class name="com.AutomationAsginmnt.Apps.AutomationPracticeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1]" started-at="2021-08-07T15:54:01 IST" name="setup" finished-at="2021-08-07T15:54:02 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1]" started-at="2021-08-07T15:54:02 IST" name="launchApp" finished-at="2021-08-07T15:54:10 IST" duration-ms="8620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="testAutomationPracticeTest()[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1]" started-at="2021-08-07T15:54:10 IST" name="testAutomationPracticeTest" finished-at="2021-08-07T15:54:40 IST" duration-ms="29795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomationPracticeTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1]" started-at="2021-08-07T15:54:40 IST" name="getResult" finished-at="2021-08-07T15:54:41 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAutomationPracticeTest status=SUCCESS method=AutomationPracticeTest.testAutomationPracticeTest()[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.AutomationAsginmnt.Apps.AutomationPracticeTest@29176cc1]" started-at="2021-08-07T15:54:41 IST" name="teardown" finished-at="2021-08-07T15:54:41 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AutomationAsginmnt.Apps.AutomationPracticeTest -->
+    </test> <!-- ClassOne -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
