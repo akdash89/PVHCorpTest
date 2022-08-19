@@ -14,7 +14,7 @@ This project uses Maven for assembling of OSGi bundles based on artifacts in Mav
 any other accessible Maven repository.
 
 1. Install Java (JDK 8 preferred) and Maven.
-2. Clone this repository and go into the repository root folder.
+3. Clone this repository and go into the repository root folder.
 
 
 
@@ -32,7 +32,9 @@ How to Execute(4 options)
 
 How to View Report
 ------------------------
-Right click open with any browser
+Expand test-output folder and Right click on UI_Test_Execution_report.html and open with any browser
+![image](https://user-images.githubusercontent.com/33351561/185617274-79819306-f74d-4aa6-8709-f1b85c489ab3.png)
+
 
 
 Tools Used
