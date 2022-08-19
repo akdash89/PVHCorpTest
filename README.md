@@ -1,10 +1,10 @@
-# Appian PMA
+# PVH Corp Assignment
 
 
 
 ====================
 
-This repositories hosts FASAL UI ASIGNMENT project. This has navigation flOW,filter interactions,drop down interaction,sucessmessage validation
+This repositories hosts PVH Corp ASIGNMENT project. This has login flow,login error message validation and add new address flow .
 
 
 Prerequisites
